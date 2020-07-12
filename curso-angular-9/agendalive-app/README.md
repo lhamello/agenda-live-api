@@ -1,14 +1,17 @@
 # AgendaliveApp
 
-Este projeto foi gerado através do comando `ng new agendalive-app` com [Angular CLI](https://github.com/angular/angular-cli) versão 9.1.1
+Este projeto foi gerado através do comando `ng new agendalive-app` com [Angular CLI](https://github.com/angular/angular-cli) versão 9.1.1.
 
 ### Angular Material
-A aplicação está usando os compoententes do [Angular Material](https://material.angular.io/) instalado a partir do comando `ng add @angular/material`
+
+A aplicação está usando os compoententes do [Angular Material](https://material.angular.io/) instalado a partir do comando `ng add @angular/material`.
+
+### Para Rodar a Aplicação
+
+Executar o comando `ng serve` e então acessar a URL  `http://localhost:4200/`.
 
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
