@@ -10,6 +10,9 @@ A aplicação está usando os compoententes do [Angular Material](https://materi
 
 Executar o comando `ng serve` e então acessar a URL  `http://localhost:4200/`.
 
+### Para Gerar Novo Componente
+
+Executar o comando `ng g c <caminho>/<nome-do-componente>`.
 
 
 
