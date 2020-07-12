@@ -15,7 +15,7 @@ Executar o comando `ng serve` e então acessar a URL  `http://localhost:4200/`.
 Executar o comando `ng g c <caminho>/<nome-do-componente>`.
 
 ### Dependências
-- `npm i @angular/flex-layout`
+- `npm i @angular/flex-layout@9.0.0-beta.31`
 
 ## Code scaffolding
 
