@@ -1,13 +1,43 @@
-.tab-group-class {
+.mat-tab-group-lives {
     padding-top: 40px;
     padding-left: 2%;
     padding-right: 2%;
 }
 
-.div-proximas {
+.mat-tab-div-1 {
     padding: 2%;
 }
 
-.div-cards {
+.mat-tab-ng-container {
     margin: 0.5%;
+}
+
+.mat-card-live {
+    border: 1px solid #CFD8DC;
+    border-radius: 4px 3px 6px / 2px 4px;
+    padding-top: 15px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    margin: 5px;
+}
+
+.mat-card-live-title {
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    min-height: 70px;
+}
+
+.nome-live {
+    font-size: 0.9rem;
+}
+
+.data-live {
+    font-size: 0.7rem;
+}
+
+.nome-canal {
+    font-size: 0.7rem;
 }
