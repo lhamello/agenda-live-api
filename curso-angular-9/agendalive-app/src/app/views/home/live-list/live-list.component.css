@@ -41,3 +41,8 @@
 .nome-canal {
     font-size: 0.7rem;
 }
+
+.mat-chip-date {
+    background-color: #90CAF9 !important;
+    color: black !important;
+}

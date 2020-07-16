@@ -10,7 +10,9 @@
                                 <span class="nome-live" fxFlex="70"
                                     fxLayoutAlign="start center">{{live.liveName}}</span>
                                 <span fxFlex></span>
-                                <span class="data-live" fxFlex="25" fxLayoutAlign="end center">{{live.liveDate}}</span>
+                                <mat-chip class="mat-chip-date" fxFlex="25" fxLayoutAlign="center center">
+                                    <span class="data-live">{{live.liveDate | localDateTime}}</span>
+                                </mat-chip>
                             </p>
                             <p class="nome-canal">
                                 Canal: <span>{{live.channelName}}</span>
@@ -19,7 +21,9 @@
                     </mat-card-title>
                     <mat-card-content fxLayoutAlign="center center">
                         <div>
-                            <iframe width="460" height="315" [src]="live.urlSafe" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="460" height="315" [src]="live.urlSafe" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                         </div>
                     </mat-card-content>
                 </mat-card>
@@ -37,7 +41,9 @@
                                 <span class="nome-live" fxFlex="70"
                                     fxLayoutAlign="start center">{{live.liveName}}</span>
                                 <span fxFlex></span>
-                                <span class="data-live" fxFlex="25" fxLayoutAlign="end center">{{live.liveDate}}</span>
+                                <mat-chip class="mat-chip-date" fxFlex="25" fxLayoutAlign="center center">
+                                    <span class="data-live">{{live.liveDate | localDateTime}}</span>
+                                </mat-chip>
                             </p>
                             <p class="nome-canal">
                                 Canal: <span>{{live.channelName}}</span>
@@ -46,7 +52,9 @@
                     </mat-card-title>
                     <mat-card-content fxLayoutAlign="center center">
                         <div>
-                            <iframe width="460" height="315" [src]="live.urlSafe" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="460" height="315" [src]="live.urlSafe" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                         </div>
                     </mat-card-content>
                 </mat-card>
