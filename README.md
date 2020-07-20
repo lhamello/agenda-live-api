@@ -6,8 +6,8 @@ API do curso de Angular 9 da [Michelli Brito](https://www.youtube.com/watch?v=5v
 Link para o repositório do APP: https://github.com/lhamello/agenda-live.
 
 ### EndPoints
-* [Obter Todas Lives](lives/get.md) : `GET /lives/`
-* [Obter Uma Live](lives/get/id.md) : `GET /lives/{id}`
-* [Salvar Live](lives/post.md) : `POST /lives/`
-* [Excluir Live](lives/delete/id.md) : `DELETE /lives/{id}`
-* [Alterar Live](lives/put/id.md) : `PUT /lives/{id}`
+* Obter Todas Lives: `GET /lives/`
+* Obter Uma Live: `GET /lives/{id}`
+* Salvar Live: `POST /lives/`
+* Excluir Live: `DELETE /lives/{id}`
+* Alterar Live: `PUT /lives/{id}`
